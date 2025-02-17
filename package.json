@@ -1,7 +1,7 @@
 {
   "name": "pug-site-cli",
-  "version": "1.0.2",
-  "description": "添加自动安装依赖",
+  "version": "1.0.3",
+  "description": "版本号从package.json中获取",
   "main": "bin/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
