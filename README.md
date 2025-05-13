@@ -8,6 +8,7 @@
 - 自动安装必要依赖
 - 开发服务器支持热重载
 - 内置数据生成工具
+- 更新项目核心文件
 
 ## 安装
 
@@ -54,6 +55,19 @@ pug-site-cli create <project-name>
    ```bash
    npm run dev
    ```
+
+### 更新项目核心文件
+
+如果模板有更新，您可以使用以下命令更新项目的核心文件：
+
+```bash
+pug-site-cli update
+```
+
+此命令会：
+- 更新 index.js 和 README.md 文件
+- 智能合并 package.json 中的 scripts 部分，遇到冲突时保留您的自定义配置
+
 ## 许可证
 
 MIT

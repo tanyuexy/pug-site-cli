@@ -1,7 +1,7 @@
 {
   "name": "pug-site-cli",
-  "version": "1.0.4",
-  "description": "更新依赖版本",
+  "version": "1.0.6",
+  "description": "移除更新核心文件的备份逻辑",
   "main": "bin/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
