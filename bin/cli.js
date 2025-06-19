@@ -16,7 +16,7 @@ program
 program
   .version(version)
   .command("update")
-  .description("更新当前项目的核心文件，并智能合并 package.json 中的 scripts")
+  .description("更新当前项目的核心文件，智能合并 package.json 中的 scripts 和 config.js 配置，旧配置中的自定义值会保留，已弃用的配置项会被标注")
   .action(() => {
     update();
   });
