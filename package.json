@@ -1,7 +1,7 @@
 {
   "name": "pug-site-cli",
-  "version": "1.0.7",
-  "description": "增加config配置文件的更新功能、最新模版中新增的配置将会更新默认值到旧的中 新模版中没有的旧模版中有的会被标记弃用",
+  "version": "1.0.8",
+  "description": "修改package.json中scripts值的功能现在不提示冲突而是直接新的覆盖旧的",
   "main": "bin/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
